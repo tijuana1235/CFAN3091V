@@ -1,0 +1,287 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//University of Minnesota//CFAN-3091V Fall 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CFAN 3091V: From Ideas to Strategic Plans (Fall 2026)
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:CFAN-3091V-20260909-01@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20260909T101500
+DTEND;TZID=America/Chicago:20260909T113000
+SUMMARY:CFAN 3091V Wk01: Course orientation\, research domains\, mentors\,
+ and timelines
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 1. Course orientation\, research domains\, mentors\, and t
+ imelines. Due: Domain and mentor map.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20260914-02@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20260914T101500
+DTEND;TZID=America/Chicago:20260914T113000
+SUMMARY:CFAN 3091V Wk02: Technical writing fundamentals and the topic funne
+ l
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 2. Technical writing fundamentals and the topic funnel. Due
+ : Writing Exercise 1 and topic funnel.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20260916-03@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20260916T101500
+DTEND;TZID=America/Chicago:20260916T113000
+SUMMARY:CFAN 3091V Wk02: Honors thesis requirements and mentor outreach
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 2. Honors thesis requirements and mentor outreach.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20260921-04@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20260921T101500
+DTEND;TZID=America/Chicago:20260921T113000
+SUMMARY:CFAN 3091V Wk03: Individual meetings
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 3. Individual meetings. Due: Progress Report 1.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20260923-05@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20260923T101500
+DTEND;TZID=America/Chicago:20260923T113000
+SUMMARY:CFAN 3091V Wk03: Individual meetings
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 3. Individual meetings.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20260928-06@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20260928T101500
+DTEND;TZID=America/Chicago:20260928T113000
+SUMMARY:CFAN 3091V Wk04: Library databases and search strategy
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 4. Library databases and search strategy.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20260930-07@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20260930T101500
+DTEND;TZID=America/Chicago:20260930T113000
+SUMMARY:CFAN 3091V Wk04: Pearl growing and reference management
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 4. Pearl growing and reference management. Due: Advisor id
+ entification.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261005-08@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261005T101500
+DTEND;TZID=America/Chicago:20261005T113000
+SUMMARY:CFAN 3091V Wk05: Quantitative\, qualitative\, and mixed methods
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 5. Quantitative\, qualitative\, and mixed methods.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261007-09@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261007T101500
+DTEND;TZID=America/Chicago:20261007T113000
+SUMMARY:CFAN 3091V Wk05: Research-question and method alignment
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 5. Research-question and method alignment. Due: Progress Re
+ port 2.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261012-10@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261012T101500
+DTEND;TZID=America/Chicago:20261012T113000
+SUMMARY:CFAN 3091V Wk06: Statistical claims and study design
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 6. Statistical claims and study design.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261014-11@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261014T101500
+DTEND;TZID=America/Chicago:20261014T113000
+SUMMARY:CFAN 3091V Wk06: Evidence detectives workshop
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 6. Evidence detectives workshop. Due: Research Methods Ref
+ lection.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261019-12@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261019T101500
+DTEND;TZID=America/Chicago:20261019T113000
+SUMMARY:CFAN 3091V Wk07: Individual meetings
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 7. Individual meetings. Due: Progress Report 3.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261021-13@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261021T101500
+DTEND;TZID=America/Chicago:20261021T113000
+SUMMARY:CFAN 3091V Wk07: Individual meetings
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 7. Individual meetings.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261026-14@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261026T101500
+DTEND;TZID=America/Chicago:20261026T113000
+SUMMARY:CFAN 3091V Wk08: Literature synthesis and subject mastery
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 8. Literature synthesis and subject mastery.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261028-15@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261028T101500
+DTEND;TZID=America/Chicago:20261028T113000
+SUMMARY:CFAN 3091V Wk08: Gap identification and synthesis workshop
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 8. Gap identification and synthesis workshop. Due: Literat
+ ure Synthesis Draft.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261102-16@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261102T101500
+DTEND;TZID=America/Chicago:20261102T113000
+SUMMARY:CFAN 3091V Wk09: Thesis anatomy
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 9. Thesis anatomy.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261104-17@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261104T101500
+DTEND;TZID=America/Chicago:20261104T113000
+SUMMARY:CFAN 3091V Wk09: Structured peer review
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 9. Structured peer review. Due: Peer Review 1.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261109-18@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261109T101500
+DTEND;TZID=America/Chicago:20261109T113000
+SUMMARY:CFAN 3091V Wk10: Drafting introductions
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 10. Drafting introductions.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261111-19@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261111T101500
+DTEND;TZID=America/Chicago:20261111T113000
+SUMMARY:CFAN 3091V Wk10: Drafting methods
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 10. Drafting methods. Due: Introduction and Methods Draft.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261116-20@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261116T101500
+DTEND;TZID=America/Chicago:20261116T113000
+SUMMARY:CFAN 3091V Wk11: Expected results
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 11. Expected results for proposal students; actual results
+  and discussion for Fall Graduation students.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261118-21@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261118T101500
+DTEND;TZID=America/Chicago:20261118T113000
+SUMMARY:CFAN 3091V Wk11: Student Peer Review 2
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 11. Student Peer Review 2. Due: Student Peer Review 2 and
+  Professional Review Plan.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261123-22@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261123T101500
+DTEND;TZID=America/Chicago:20261123T113000
+SUMMARY:CFAN 3091V Wk12: Figures\, tables\, and abstracts
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 12. Figures\, tables\, and abstracts.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261125-23@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261125T101500
+DTEND;TZID=America/Chicago:20261125T113000
+SUMMARY:CFAN 3091V Wk12: Full-document assembly workshop
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 12. Full proposal or thesis assembly workshop. Due: Advisor
+ -ready Full Thesis Proposal or Full Thesis Draft. Hold for Week 13.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261130-24@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261130T101500
+DTEND;TZID=America/Chicago:20261130T113000
+SUMMARY:CFAN 3091V Wk13: Instructor conversations and release
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 13. Individual proposal or thesis conversations. Send the
+  revised document for professional review only after the meeting.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261202-25@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261202T101500
+DTEND;TZID=America/Chicago:20261202T113000
+SUMMARY:CFAN 3091V Wk13: Instructor conversations and release
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 13. Individual conversations and professional-review
+  submission continue.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261207-26@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261207T101500
+DTEND;TZID=America/Chicago:20261207T113000
+SUMMARY:CFAN 3091V Wk14: Professional review
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 14. Primary Advisor and Thesis Proposal Committee review
+  window; independent revision work.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261209-27@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261209T101500
+DTEND;TZID=America/Chicago:20261209T113000
+SUMMARY:CFAN 3091V Wk14: Feedback triage and revision
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 14. Professional-feedback triage and revision workshop. Due:
+  review evidence, response memo, and prioritized revision plan.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261214-28@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261214T101500
+DTEND;TZID=America/Chicago:20261214T113000
+SUMMARY:CFAN 3091V Wk15: Final workshop and consultations
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 15. Final workshop and consultations. Fall Graduation stude
+ nts file the final thesis and UHP Thesis Completion Form today.
+END:VEVENT
+BEGIN:VEVENT
+UID:CFAN-3091V-20261216-29@umn.edu
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20261216T101500
+DTEND;TZID=America/Chicago:20261216T113000
+SUMMARY:CFAN 3091V Wk15: Course close and next steps
+LOCATION:Borlaug Hall 213
+DESCRIPTION:Week 15. Course close and next steps. Due: Full Thesis Proposal
+  and process portfolio, or Fall Graduation process portfolio and completion
+ -submission record.
+END:VEVENT
+END:VCALENDAR

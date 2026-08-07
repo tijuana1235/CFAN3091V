@@ -1,0 +1,73 @@
+/* UMN Brand Colors */
+:root {
+  --umn-maroon: #7A0019;
+  --umn-gold: #FFCC33;
+}
+
+body {
+  text-align: justify;
+}
+
+/* Floated welcome graphic: body text wraps alongside it rather than
+   breaking around a full-width block. */
+.welcome-float {
+  float: right;
+  width: 250px;
+  max-width: 40%;
+  height: auto;
+  margin: 0.25rem 0 1rem 1.5rem;
+}
+
+/* On narrow screens a 250px float leaves an unreadable column of text,
+   so stop floating and center it instead. */
+@media (max-width: 600px) {
+  .welcome-float {
+    float: none;
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    margin: 1rem auto;
+  }
+}
+
+/* Course schedule: shade odd-numbered weeks so each week reads as one block
+   now that the Week number appears only on the first row of each week.
+
+   Each track table has its own row rhythm, so each needs its own rule. These
+   selectors count rows, not weeks: if a week ever gains or loses a row, the
+   banding shifts by one week from that point down and the rule below has to be
+   revisited. The shading is decorative. The Date column still names the day on
+   every row, so nothing is conveyed by color alone. */
+
+/* Proposal Development Track: two rows per week, Monday and Wednesday, so odd
+   weeks land on rows 4n+1 and 4n+2. */
+#tbl-proposal-track tbody tr:nth-child(4n+1) > td,
+#tbl-proposal-track tbody tr:nth-child(4n+2) > td {
+  background-color: #f2f2f2;
+}
+
+/* Fall Graduation Track: one row per week, so odd weeks are simply odd rows. */
+#tbl-fall-graduation-track tbody tr:nth-child(odd) > td {
+  background-color: #f2f2f2;
+}
+
+/* Keep the week block visually intact when a cell is empty. */
+#tbl-proposal-track tbody td:empty,
+#tbl-fall-graduation-track tbody td:empty {
+  padding: 0.5rem;
+}
+
+/* Phase badges in schedule */
+.phase-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: white;
+}
+
+.phase-1 { background-color: #2E86AB; }
+.phase-2 { background-color: #A23B72; }
+.phase-3 { background-color: #F18F01; }
+.phase-4 { background-color: #C73E1D; }
