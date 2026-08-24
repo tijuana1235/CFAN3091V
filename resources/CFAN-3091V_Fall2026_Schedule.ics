@@ -10,11 +10,11 @@ UID:CFAN-3091V-20260909-01@umn.edu
 DTSTAMP:20260803T000000Z
 DTSTART;TZID=America/Chicago:20260909T101500
 DTEND;TZID=America/Chicago:20260909T113000
-SUMMARY:CFAN 3091V Wk01: Course orientation\, research domains\, mentors\,
- and timelines
+SUMMARY:CFAN 3091V Wk01: Introductions\, course timeline\, and paper dissection
 LOCATION:Borlaug Hall 213
-DESCRIPTION:Week 1. Course orientation\, research domains\, mentors\, and t
- imelines. Due: Domain and mentor map.
+DESCRIPTION:Week 1. Introductions\, focused syllabus and timeline tour\, and
+ an instructor-led paper dissection. Due: Interest\, Motivation\, and Directi
+ on Freewrite before class Sep 14.
 END:VEVENT
 BEGIN:VEVENT
 UID:CFAN-3091V-20260914-02@umn.edu
@@ -137,16 +137,6 @@ DTEND;TZID=America/Chicago:20261026T113000
 SUMMARY:CFAN 3091V Wk08: Literature synthesis and subject mastery
 LOCATION:Borlaug Hall 213
 DESCRIPTION:Week 8. Literature synthesis and subject mastery.
-END:VEVENT
-BEGIN:VEVENT
-UID:CFAN-3091V-20261028-15@umn.edu
-DTSTAMP:20260803T000000Z
-DTSTART;TZID=America/Chicago:20261028T101500
-DTEND;TZID=America/Chicago:20261028T113000
-SUMMARY:CFAN 3091V Wk08: Gap identification and synthesis workshop
-LOCATION:Borlaug Hall 213
-DESCRIPTION:Week 8. Gap identification and synthesis workshop. Due: Literat
- ure Synthesis Draft.
 END:VEVENT
 BEGIN:VEVENT
 UID:CFAN-3091V-20261102-16@umn.edu
