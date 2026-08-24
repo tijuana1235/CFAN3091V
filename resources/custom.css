@@ -8,6 +8,21 @@ body {
   text-align: justify;
 }
 
+/* Week 1 timing table: keep the short duration labels compact and reserve
+   most of the row width for the activity description. */
+#tbl-week01-plan col:first-child {
+  width: 18% !important;
+}
+
+#tbl-week01-plan col:nth-child(2) {
+  width: 82% !important;
+}
+
+#tbl-week01-plan th:first-child,
+#tbl-week01-plan td:first-child {
+  white-space: nowrap;
+}
+
 /* Floated welcome graphic: body text wraps alongside it rather than
    breaking around a full-width block. */
 .welcome-float {
