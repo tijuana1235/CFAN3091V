@@ -5,7 +5,41 @@
 }
 
 body {
-  text-align: justify;
+  text-align: left;
+}
+
+/* Weekly pages use one stable orientation block. A definition list preserves
+   the label-value relationship for assistive technology and collapses to one
+   column on narrow screens. */
+.week-summary {
+  background-color: #f7f7f7;
+  border-left: 0.3rem solid var(--umn-maroon);
+  border-radius: 0.25rem;
+  margin: 0 0 1.75rem;
+  padding: 1rem 1.25rem;
+}
+
+.week-summary dl {
+  display: grid;
+  gap: 0.6rem 1.25rem;
+  grid-template-columns: minmax(8.5rem, 10rem) minmax(0, 1fr);
+  margin: 0;
+}
+
+.week-summary dt {
+  font-weight: 700;
+}
+
+.week-summary dd {
+  margin: 0;
+}
+
+/* Wide tables may use the page grid without widening ordinary prose. The
+   focusable wrapper keeps horizontal scrolling keyboard-accessible when a
+   genuinely two-dimensional table cannot reflow on a small screen. */
+.wide-table {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Floated welcome graphic: body text wraps alongside it rather than
@@ -21,6 +55,15 @@ body {
 /* On narrow screens a 250px float leaves an unreadable column of text,
    so stop floating and center it instead. */
 @media (max-width: 600px) {
+  .week-summary dl {
+    gap: 0.2rem;
+    grid-template-columns: 1fr;
+  }
+
+  .week-summary dd + dt {
+    margin-top: 0.65rem;
+  }
+
   .welcome-float {
     float: none;
     display: block;
@@ -56,18 +99,3 @@ body {
 #tbl-fall-graduation-track tbody td:empty {
   padding: 0.5rem;
 }
-
-/* Phase badges in schedule */
-.phase-badge {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 0.85em;
-  font-weight: 600;
-  color: white;
-}
-
-.phase-1 { background-color: #2E86AB; }
-.phase-2 { background-color: #A23B72; }
-.phase-3 { background-color: #F18F01; }
-.phase-4 { background-color: #C73E1D; }

@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -42,7 +61,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-674e1bc85121ec83e9c133f16c33b989.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-92f0198b194eb661807b062d40267c54.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -193,7 +212,71 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../assignments/week-01-freewrite.html">
- <span class="dropdown-text">Week 1 Freewrite</span></a>
+ <span class="dropdown-text">Week 1: Freewrite</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assignments/week-02-writing-workshop.html">
+ <span class="dropdown-text">Week 2: Writing Workshop</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assignments/week-02-requirements-outreach.html">
+ <span class="dropdown-text">Week 2: Requirements and Outreach</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assignments/week-03-progress-report-1.html">
+ <span class="dropdown-text">Week 3: Progress Report 1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assignments/week-04-search-workshop.html">
+ <span class="dropdown-text">Week 4: Search Workshop</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assignments/week-05-question-workshop.html">
+ <span class="dropdown-text">Week 5: Question Workshop</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assignments/week-05-progress-report-2.html">
+ <span class="dropdown-text">Week 5: Progress Report 2 and Search Record</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assignments/week-06-method-blueprint.html">
+ <span class="dropdown-text">Week 6: Method Blueprint</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assignments/week-07-progress-report-3.html">
+ <span class="dropdown-text">Week 7: Progress Report 3</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assignments/week-08-literature-synthesis.html">
+ <span class="dropdown-text">Week 8: Literature Synthesis Draft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assignments/week-09-peer-review-1.html">
+ <span class="dropdown-text">Week 9: Peer Review 1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assignments/week-10-introduction-literature-methods-draft.html">
+ <span class="dropdown-text">Week 10: Introduction, Literature Review, and Methods Draft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assignments/week-11-peer-review-2.html">
+ <span class="dropdown-text">Week 11: Peer Review 2 and Professional Review Plan</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assignments/week-12-advisor-ready-document.html">
+ <span class="dropdown-text">Week 12: Advisor-ready Document and Release Screen</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assignments/week-13-conversation-brief.html">
+ <span class="dropdown-text">Week 13: Conversation Brief and Review Confirmation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assignments/week-14-professional-review-response.html">
+ <span class="dropdown-text">Week 14: Professional Review and Response</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assignments/week-15-final-submission.html">
+ <span class="dropdown-text">Week 15: Final Submission and Process Portfolio</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../assignments/progress-reports.html">
@@ -259,9 +342,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#week-at-a-glance" id="toc-week-at-a-glance" class="nav-link active" data-scroll-target="#week-at-a-glance">Week at a Glance</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
   <li><a href="#monday-from-source-notes-to-a-literature-structure" id="toc-monday-from-source-notes-to-a-literature-structure" class="nav-link" data-scroll-target="#monday-from-source-notes-to-a-literature-structure">Monday: From Source Notes to a Literature Structure</a>
   <ul class="collapse">
+  <li><a href="#what-a-literature-review-is-actually-doing" id="toc-what-a-literature-review-is-actually-doing" class="nav-link" data-scroll-target="#what-a-literature-review-is-actually-doing">What a Literature Review Is Actually Doing</a></li>
   <li><a href="#reading-clinic-where-do-these-papers-disagree" id="toc-reading-clinic-where-do-these-papers-disagree" class="nav-link" data-scroll-target="#reading-clinic-where-do-these-papers-disagree">Reading Clinic: Where Do These Papers Disagree?</a></li>
   <li><a href="#synthesis-matrix-activity" id="toc-synthesis-matrix-activity" class="nav-link" data-scroll-target="#synthesis-matrix-activity">Synthesis-Matrix Activity</a></li>
   <li><a href="#matrix-decision-rules" id="toc-matrix-decision-rules" class="nav-link" data-scroll-target="#matrix-decision-rules">Matrix Decision Rules</a></li>
@@ -301,40 +386,215 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="week-at-a-glance" class="level2">
+<h2 class="anchored" data-anchor-id="week-at-a-glance">Week at a Glance</h2>
+<div class="week-summary" aria-label="Week 8 at a glance">
+<dl>
+<dt><strong>This week</strong></dt>
+<dd>
+Turn a pile of read sources into a structure that makes an argument, then draft one paragraph that does it. We meet Monday only.
+</dd>
+<dt><strong>Before class</strong></dt>
+<dd>
+For Monday, have your Week 5 Search Record and your source notes in whatever form you keep them. Pick two sources from your own set that you know well enough to argue about.
+</dd>
+<dt><strong>Bring</strong></dt>
+<dd>
+Monday: your marked Week 1 article, Davis (2010), two of your own sources, the <a href="../resources/reading-protocol.html">reading protocol</a>, and a printed <a href="../resources/week-08-synthesis-matrix.pdf">Synthesis Matrix</a>. We work at the board for part of the session, so bring your current question in a form you can put up there.
+</dd>
+<dt><strong>Due</strong></dt>
+<dd>
+<a href="../assignments/week-08-literature-synthesis.html">Week 8: Literature Synthesis Draft</a> by the Canvas deadline on Wednesday, October 28. Fall Graduation students submit a Revised Thesis Literature Synthesis instead.
+</dd>
+<dt><strong>Submission method</strong></dt>
+<dd>
+Canvas file upload, as one package with the Search Record and your synthesis matrix. There is no class on October 28; the independent sequence below is what you do instead.
+</dd>
+</dl>
+</div>
+</section>
 <section id="learning-objectives" class="level2">
 <h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
 <p>By the end of this week, you should be able to:</p>
 <ul>
-<li>organize sources by question, finding, method, or disagreement;</li>
-<li>distinguish summary from synthesis;</li>
-<li>identify patterns and unresolved disagreements across sources;</li>
-<li>explain how the literature changes or narrows your research question; and</li>
-<li>identify a defensible gap without claiming that no prior work exists.</li>
+<li>distinguish summary from synthesis, and tell which one a paragraph of your own draft is doing;</li>
+<li>organize sources by question, population, method, finding, or disagreement, using the same slots you used on your own question in Week 5;</li>
+<li>state a pattern that holds across several sources, and a disagreement that does not resolve;</li>
+<li>explain how the literature narrows your question and warrants your objectives; and</li>
+<li>name a defensible gap bounded by your search, without claiming that no prior work exists; and</li>
+<li>judge whether you have read enough by sketching the tables and figures your own study would produce, ranking your treatments or cases, and defending that order from the literature.</li>
 </ul>
 </section>
 <section id="monday-from-source-notes-to-a-literature-structure" class="level2">
 <h2 class="anchored" data-anchor-id="monday-from-source-notes-to-a-literature-structure">Monday: From Source Notes to a Literature Structure</h2>
+<section id="what-a-literature-review-is-actually-doing" class="level3">
+<h3 class="anchored" data-anchor-id="what-a-literature-review-is-actually-doing">What a Literature Review Is Actually Doing</h3>
 <p>A literature review is not a sequence of article summaries. It is an argument about what is known, how it is known, where findings converge, and what remains uncertain.</p>
+<p>The way that argument fails is specific, and I see it every year. A draft arrives where each paragraph handles one paper: what it studied, what it found, new paragraph, next paper. Every sentence in it is true. Nothing is connected. The reader finishes knowing what six papers said and still not knowing what the writer thinks the field knows. Then the objectives appear on the next page, as though they had been waiting there all along, attached to nothing.</p>
+<p>You are not the first person to write that draft. Cisco, describing three years of writing-center work with students across disciplines, reports the same pattern: students “typically write a series of unrelated paragraphs, each of which summarizes one of the works reviewed rather than an integrative analysis of all the sources” <span class="citation" data-cites="cisco2014">(<a href="#ref-cisco2014" role="doc-biblioref">Cisco 2014</a>)</span>. Boote and Beile, after reviewing dissertations at three universities, argue that students get very little formal training in how to analyze and synthesize a research literature, and that the quality of the reviews reflects it <span class="citation" data-cites="boote2005">(<a href="#ref-boote2005" role="doc-biblioref">Boote and Beile 2005</a>)</span>. This is a skill nobody taught you. That is what this week is for.</p>
+<section id="three-moves-in-order" class="level4">
+<h4 class="anchored" data-anchor-id="three-moves-in-order">Three Moves, in Order</h4>
+<p>Swales studied how published research introductions actually work and named the structure they share. He called it Create A Research Space, and it runs in three moves <span class="citation" data-cites="swales1990">(<a href="#ref-swales1990" role="doc-biblioref">Swales 1990</a>)</span>:</p>
+<ol type="1">
+<li><strong>Establish the territory.</strong> What is known, and why the area matters. This is the move students find easiest and routinely overdo.</li>
+<li><strong>Establish the niche.</strong> Where the known runs out. A disagreement, an untested population, a mechanism nobody has measured in your system, a claim that does not transfer. This is the move that gets skipped.</li>
+<li><strong>Occupy the niche.</strong> Your question, objectives, and hypotheses, arriving as the answer to the problem you just established.</li>
+</ol>
+<p>Move two is load-bearing. Skip it and move three has nothing to stand on, which is exactly why objectives that appear out of nowhere read as arbitrary. They are arbitrary. The writing never made the case that anything needed doing.</p>
+<p>Your thesis proposal makes the same three moves your sources do. The difference is that they had a whole introduction to do it in and you have a literature review, so the joins have to be visible.</p>
+</section>
+<section id="link-back-to-the-lit" class="level4">
+<h4 class="anchored" data-anchor-id="link-back-to-the-lit">Link Back to the Lit</h4>
+<p>That phrase goes in your margins more than any other thing I write. It means: you have asserted something, and you have not shown me where it came from or what it is doing for your argument.</p>
+<p>Every sentence in a literature review does one of four jobs. You should be able to say which:</p>
+<ul>
+<li>reports what a source found, in language no stronger than its design supports;</li>
+<li>puts two or more sources in relation: agreeing, disagreeing, measuring different things, or studying different populations;</li>
+<li>states what that relation means for your question; or</li>
+<li>names what the relation leaves unsettled.</li>
+</ul>
+<p>A paragraph built only from the first job is a summary. A review built only from summaries is a book report with citations attached. Diagnose your own draft by labeling each sentence with the job it does. If nearly all of them are the first job, that is a finding about the draft, and it is fixable.</p>
+</section>
+<section id="a-gap-is-not-an-absence" class="level4">
+<h4 class="anchored" data-anchor-id="a-gap-is-not-an-absence">A Gap Is Not an Absence</h4>
+<p>The gap you name is the hinge between the literature and your objectives, and it is where drafts most often break. “No one has studied this” is almost never true, and it is the easiest sentence in your proposal for a committee member to disprove. What you are claiming is narrower and stronger: these studies address this question in these systems, and the thing I want to know sits outside where their evidence reaches.</p>
+<p>How much literature you must cover to say that honestly is genuinely contested. Boote and Beile argue for comprehensiveness, treating the review as the foundation the research stands on <span class="citation" data-cites="boote2005">(<a href="#ref-boote2005" role="doc-biblioref">Boote and Beile 2005</a>)</span>. Maxwell, replying in the same journal, argues that a review should be judged on relevance to the research being proposed, and that it is a component of the research rather than the ground under it <span class="citation" data-cites="maxwell2006">(<a href="#ref-maxwell2006" role="doc-biblioref">Maxwell 2006</a>)</span>. For a one-semester honors thesis, Maxwell describes the achievable target. You are not going to be comprehensive. You are going to be relevant, and you are going to state what your search boundary was so a reader can see the edge of your claim.</p>
+</section>
+<section id="when-have-you-read-enough" class="level4">
+<h4 class="anchored" data-anchor-id="when-have-you-read-enough">When Have You Read Enough?</h4>
+<p>You will ask me this, most of you around now, and counting will not answer it. One could argue that fifteen relevant sources can beat forty sources you have filed. So here is the test I actually use, and we will spend ten minutes at the board on it today.</p>
+<p>Draw the paper you have not written yet. Not an outline. The manuscript, in its published form, empty:</p>
+<ul>
+<li><strong>Table 1.</strong> Your weather data, or your method timeline. Whatever your field puts first to let a reader judge the conditions the study ran under.</li>
+<li><strong>Table 2.</strong> Your model statistics. This one matters more than students expect. If you cannot say what model your design implies, or what its table would have to contain, then you do not yet know how your own question gets answered.</li>
+<li><strong>Figure 1.</strong> Your first response variable, with your treatments on it. Then the part that does the real work: <strong>rank the treatments.</strong> Put them in the order you expect, from what you know about the system, and be ready to say why that order and not another one.</li>
+<li><strong>Every remaining table and figure</strong>, the same way.</li>
+</ul>
+<p>Then write the abstract. Then write the conclusion.</p>
+<p>You are done reading when you can do that and defend it.</p>
+<p>Notice what the ranking is doing. Everything before it can be produced by someone who has read carefully and understood nothing. An axis label is a fact about your design. The order of the bars is a claim about your system, and it can come from nowhere except what you have read and what you have reasoned from it. Rank the treatments and defend the order, and you have synthesized the literature. Fail to, and you have consumed it. Those are different things, and the board will tell you which one you did.</p>
+<p>The test also fails better than “I have not read enough,” because it tells you <em>where</em>. A ranking you cannot defend points at one specific mechanism you do not understand yet, and that is a search you can go run this week rather than a vague instruction to read more.</p>
+<p>If your project is not an experiment with treatments, the move is identical and the objects change. Draw the table of cases or sources and what varies across them. Draw the figure, matrix, or map that would display the pattern you expect. Draw the sequence your account will follow. Then commit: which cases you expect to resemble each other, which explanation you expect to dominate, which period you expect the shift to show up in. Same demand. Predict the shape, then defend the prediction from what you have read.</p>
+<p>You will do this properly later. Week 11 drafts a real expected-results section with two outcomes, one for the hypothesis holding and one for it failing, and Week 12 works on the figures themselves. This week it is a diagnostic, not a deliverable. Chalk and ten minutes.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Fall Graduation Track: Run It Backwards
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You already have the real tables and figures. Cover the results, then rank the treatments as you would have predicted them from the literature alone, and uncover. Where your prediction and your result diverge is where your discussion section already has something to say, and it is usually the most interesting paragraph in the thesis.</p>
+</div>
+</div>
+</section>
+</section>
 <section id="reading-clinic-where-do-these-papers-disagree" class="level3">
 <h3 class="anchored" data-anchor-id="reading-clinic-where-do-these-papers-disagree">Reading Clinic: Where Do These Papers Disagree?</h3>
-<p>Fifteen minutes to close the reading thread that started in Week 1. Bring the <a href="../resources/reading-protocol.html">reading protocol</a> and the Week 1 article alongside two sources from your own set.</p>
-<p>Week 1 asked what one paper says. Week 4 asked where it got that. Week 6 asked whether it was entitled to say it. Today the unit changes: lay three papers side by side and find one place where they do not agree. A different finding, a different population, a different definition of the same term, a limitation one names and the others do not.</p>
+<p>Fifteen minutes, and it closes a thread that has run since the first week. Each reading clinic has asked a different question, and until today the unit has always been one paper:</p>
+<div id="tbl-reading-thread" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-reading-thread-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: How the reading clinic has built across the term.
+</figcaption>
+<div aria-describedby="tbl-reading-thread-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Week</th>
+<th>The unit</th>
+<th>The question it asked</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>One paper</td>
+<td>What does it say?</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>One paper</td>
+<td>Where did it get that?</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>One paper</td>
+<td>Was it entitled to say it?</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Three papers</td>
+<td>Where do they fail to agree?</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>The unit changing is the whole point. Lay three papers side by side, your Week 1 article and two of your own, and find one place where they do not agree: a different finding, a different population, a different definition of the same term, a limitation one names and the others pass over.</p>
 <p>Disagreement is what the matrix below is built to hold. If three papers in your area agree about everything, you are either reading too narrowly or you have not read them closely enough.</p>
 </section>
 <section id="synthesis-matrix-activity" class="level3">
 <h3 class="anchored" data-anchor-id="synthesis-matrix-activity">Synthesis-Matrix Activity</h3>
-<p>After a short model, most of Monday is work time. Build the matrix in class so questions about categories, conflicting findings, and weak source notes can be resolved while the evidence is in front of you.</p>
-<p>Start from the Week 5 Search Record. Before building the matrix, write a two-sentence source-set rationale: what question the set can answer, and what the search boundaries mean it cannot represent. Then create a working matrix with one row per retained source and columns for:</p>
-<ul>
-<li>research question;</li>
-<li>population or system;</li>
-<li>method;</li>
-<li>principal finding;</li>
-<li>limitation;</li>
-<li>relevance to your project; and</li>
-<li>relationship to other sources.</li>
-</ul>
-<p>Use the matrix to identify two or three themes that can organize your review.</p>
+<p>After a short model, most of Monday is work time. Build the matrix in class so questions about categories, conflicting findings, and thin source notes can be resolved while the evidence is still in front of you.</p>
+<p>Start from your Week 5 Search Record. Before building a single row, write a two-sentence source-set rationale: what question this set of sources can answer, and what your search boundaries mean it cannot represent. That second sentence is what makes your later gap claim defensible rather than absolute.</p>
+<p>Then build one row per retained source. The columns are not arbitrary, and they are not new. They are the Week 5 slots turned sideways. PICO and the non-comparative slot structure made you name the parts of your own question; the matrix asks the same of every paper you kept, so the parts line up in columns and the differences become visible.</p>
+<div id="tbl-matrix-slots" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-matrix-slots-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Where each matrix column comes from.
+</figcaption>
+<div aria-describedby="tbl-matrix-slots-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Matrix column</th>
+<th>The Week 5 slot it comes from</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Research question</td>
+<td>The question as a whole</td>
+</tr>
+<tr class="even">
+<td>Population or system</td>
+<td>Population, or population and context</td>
+</tr>
+<tr class="odd">
+<td>Method</td>
+<td>Intervention and comparison, or phenomenon and evidence</td>
+</tr>
+<tr class="even">
+<td>Principal finding</td>
+<td>Outcome</td>
+</tr>
+<tr class="odd">
+<td>Limitation</td>
+<td>Usually the slot the paper left empty</td>
+</tr>
+<tr class="even">
+<td>Relevance to your project</td>
+<td>Whether its slots match yours</td>
+</tr>
+<tr class="odd">
+<td>Relationship to other sources</td>
+<td>The comparison the columns now make possible</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Two papers that fill the same slots differently are not disagreeing. They are answering different questions, and the matrix is what lets you see that before you write a sentence claiming they conflict.</p>
+<p>Use the completed matrix to identify two or three themes that can organize your review. Boote and Beile’s central argument is that this analytic work, not the collecting, is the part that makes someone a scholar of their area <span class="citation" data-cites="boote2005">(<a href="#ref-boote2005" role="doc-biblioref">Boote and Beile 2005</a>)</span>.</p>
 </section>
 <section id="matrix-decision-rules" class="level3">
 <h3 class="anchored" data-anchor-id="matrix-decision-rules">Matrix Decision Rules</h3>
@@ -346,6 +606,64 @@ ul.task-list li input[type="checkbox"] {
 <li>Put sources in the same theme only when you can name the shared question or concept.</li>
 <li>Treat a gap as bounded by the Search Record. “I did not find” is not the same claim as “no research exists.”</li>
 </ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Breakout: One Row, on a Paper Everyone Has
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Work in pairs for ten minutes. Before you build rows from your own sources, build one from Davis (2010), because everyone in the room has read it and nobody has to spend the time orienting.</p>
+<p>Fill these cells together, out loud:</p>
+<div id="tbl-davis-row" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-davis-row-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: A worked matrix row.
+</figcaption>
+<div aria-describedby="tbl-davis-row-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Column</th>
+<th>Davis (2010)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Population or system</td>
+<td>No-till soybean following cereal rye</td>
+</tr>
+<tr class="even">
+<td>Method</td>
+<td>Roller-crimper compared with chemical burndown, across cover crops and postemergence glyphosate rates</td>
+</tr>
+<tr class="odd">
+<td>Principal finding</td>
+<td>Following cereal rye, the rolled system left 56% less surviving weed biomass than the burndown system</td>
+</tr>
+<tr class="even">
+<td>Limitation</td>
+<td>Weed-interference yield loss did not differ by termination method under the study conditions</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Now run the rules on what you just wrote.</p>
+<p><strong>Rule 1.</strong> “Roller-crimping controls weeds” is stronger than the design permits. The row says what was compared, following which cover crop, and by how much. Keep the comparison in the sentence or the claim floats free.</p>
+<p><strong>Rule 3.</strong> Some of your cells will be empty, and empty is a finding. Write “not reported” rather than inferring a plausible value, because in a month you will not remember which cells you filled from the paper and which you filled from yourself.</p>
+<p><strong>Rule 2, the one that matters most this week.</strong> Suppose your second source reports that roller-crimping did not suppress weeds. Before you write that the two papers disagree, check the columns. Different cover crop? Different region or planting date? Weed biomass measured, or weed density counted? If the slots differ, you have two papers answering different questions, and writing them up as a conflict is an error your committee will find.</p>
+<p><strong>Rule 5.</strong> If nobody has run this comparison in your system, your sentence is “within the boundaries of the search recorded in my Search Record, I did not locate studies in system B,” not “no one has studied system B.”</p>
+</div>
+</div>
 </section>
 </section>
 <section id="wednesday-oct-28-no-class-independent-synthesis-work" class="level2">
@@ -355,7 +673,7 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li>Finish the source-set rationale and the matrix rows needed for the section you are drafting.</li>
 <li>Draft one paragraph that states a pattern across multiple sources, identifies an important difference or limitation, explains why it matters for your question, and stays within the reviewed evidence.</li>
-<li>Diagnose the paragraph yourself. Label the sentence that states the cross-source relationship, mark every sentence that discusses only one source, and identify the phrase that bounds the gap.</li>
+<li>Diagnose the paragraph yourself, using the four jobs above. Label the sentence that states the cross-source relationship, mark every sentence that discusses only one source, and identify the phrase that bounds the gap. If there is no cross-source sentence, you have written a summary.</li>
 <li>Revise the paragraph, then integrate it into the Literature Synthesis Draft. Save the original and revised versions for your process portfolio.</li>
 <li>Submit the draft and its supporting Search Record and synthesis matrix by the Canvas deadline on Oct 28. Include one question you want the instructor or your Week 9 peer reviewer to address.</li>
 </ol>
@@ -365,25 +683,49 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>Across [source set], the evidence converges on [bounded pattern]. The sources differ in [finding, population, definition, measure, or method], with [source or group] showing [supported result] and [source or group] showing [supported contrast]. That difference matters for this project because [consequence for the question or design]. Within the limits of [search and source-set boundary], the unresolved issue is [bounded uncertainty], which this project addresses by [specific question or design move].</p>
 </blockquote>
+<p>Read the shell against the three moves. The first two sentences establish the territory, the third and fourth establish the niche, and the last clause begins to occupy it. That is the same structure your sources use, compressed into one paragraph so you can practice it before it has to carry a whole section.</p>
 <p>This is a structure for reasoning, not language to submit with prompts still in place. If the matrix does not support one of the sentences, narrow the sentence or return to the sources.</p>
 </section>
 </section>
 <section id="milestone" class="level2">
 <h2 class="anchored" data-anchor-id="milestone">Milestone</h2>
-<p>Submit the Literature Synthesis Draft by the Canvas deadline on Wednesday, Oct 28, after completing the independent synthesis work. See <a href="../assignments/written-work.html">Written Assignments</a> for what counts as satisfactory.</p>
+<p>Submit the <strong>Literature Synthesis Draft</strong> by the Canvas deadline on Wednesday, Oct 28, after completing the independent synthesis work above. Upload it as one package with your Search Record and synthesis matrix. See <a href="../assignments/week-08-literature-synthesis.html">Week 8: Literature Synthesis Draft</a> for what counts as satisfactory; this is the first milestone that carries detailed written feedback.</p>
 <section id="fall-graduation-thesis-completion-track" class="level3">
 <h3 class="anchored" data-anchor-id="fall-graduation-thesis-completion-track">Fall Graduation Thesis Completion Track</h3>
-<p>Use your thesis sources and existing literature-review draft. Submit a Revised Thesis Literature Synthesis that reorganizes at least one section around patterns, disagreements, or limitations rather than one-source-at-a-time summary.</p>
+<p>Use your thesis sources and existing literature-review draft. Submit a <strong>Revised Thesis Literature Synthesis</strong> that reorganizes at least one section around patterns, disagreements, or limitations rather than one-source-at-a-time summary. The three moves apply to a completed study as much as to a proposed one: your results occupy a niche, and the review is where you show the niche was there.</p>
 </section>
 </section>
 <section id="evidence-boundary" class="level2">
 <h2 class="anchored" data-anchor-id="evidence-boundary">Evidence Boundary</h2>
-<p>The search-to-source-set protocol, matrix rules, and paragraph shell are course procedures. The course evidence review has not yet verified a source for claims about the effectiveness of teaching synthesis across disagreeing texts or teaching literature-gap identification. For that reason, this page does not claim that these procedures are evidence-verified, and the Week 8 lecture-evidence records remain open gaps.</p>
+<p>The source-set protocol, the matrix columns and decision rules, the four jobs a sentence can do, the read-enough test, and the paragraph shell are course procedures. They come from how this thesis work is supervised, not from a study showing they teach synthesis better than something else would.</p>
+<p>The read-enough test is the instructor’s own supervision practice, offered as instructor judgment and labeled as such. No source in this course’s evidence review supports a claim that sketching expected tables and ranking treatments improves student synthesis. It is used here because it produces a specific, checkable failure instead of an unmeasurable one, which is a claim about the test’s structure rather than about its measured effect.</p>
+<p>Four published sources are cited above, and each is doing a bounded job:</p>
+<ul>
+<li>Cisco (2014) is a practice account from a university writing center, reflecting on one political science course. It is offered as a description of the failure pattern, not as evidence that any teaching method fixes it <span class="citation" data-cites="cisco2014">(<a href="#ref-cisco2014" role="doc-biblioref">Cisco 2014</a>)</span>.</li>
+<li>Boote and Beile (2005) studied dissertation literature reviews at three universities. Their subject is doctoral education, so their findings describe a population older and further along than this class <span class="citation" data-cites="boote2005">(<a href="#ref-boote2005" role="doc-biblioref">Boote and Beile 2005</a>)</span>.</li>
+<li>Maxwell (2006) is a published commentary disagreeing with them about what a review is for. It is included because the disagreement is real and this page takes his side for a one-semester thesis, not because it settles the question <span class="citation" data-cites="maxwell2006">(<a href="#ref-maxwell2006" role="doc-biblioref">Maxwell 2006</a>)</span>.</li>
+<li>Swales (1990) is a foundational work of genre analysis describing how published introductions are structured. It supports the claim that the three moves exist in the literature, not a claim that teaching them improves student writing <span class="citation" data-cites="swales1990">(<a href="#ref-swales1990" role="doc-biblioref">Swales 1990</a>)</span>.</li>
+</ul>
+<p>All four are prose attribution. The course evidence review has not verified a source for claims about teaching synthesis across disagreeing texts or teaching bounded gap identification, so none of these is presented as verified lecture evidence, and the Week 8 lecture-evidence records carry the outstanding review as a required action on both sessions.</p>
+
 
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-boote2005" class="csl-entry" role="listitem">
+Boote, David N., and Penny Beile. 2005. <span>“Scholars Before Researchers: On the Centrality of the Dissertation Literature Review in Research Preparation.”</span> <em>Educational Researcher</em> 34 (6): 3–15. <a href="https://doi.org/10.3102/0013189X034006003">https://doi.org/10.3102/0013189X034006003</a>.
+</div>
+<div id="ref-cisco2014" class="csl-entry" role="listitem">
+Cisco, Jonathan. 2014. <span>“Teaching the Literature Review: A Practical Approach for College Instructors.”</span> <em>Teaching and Learning Inquiry</em> 2 (2): 41–57. <a href="https://doi.org/10.20343/teachlearninqu.2.2.41">https://doi.org/10.20343/teachlearninqu.2.2.41</a>.
+</div>
+<div id="ref-maxwell2006" class="csl-entry" role="listitem">
+Maxwell, Joseph A. 2006. <span>“Literature Reviews of, and for, Educational Research: A Commentary on <span>Boote</span> and <span>Beile</span>.”</span> <em>Educational Researcher</em> 35 (9): 28–31. <a href="https://doi.org/10.3102/0013189X035009028">https://doi.org/10.3102/0013189X035009028</a>.
+</div>
+<div id="ref-swales1990" class="csl-entry" role="listitem">
+Swales, John M. 1990. <em>Genre Analysis: English in Academic and Research Settings</em>. Cambridge University Press.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

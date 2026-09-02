@@ -24,8 +24,8 @@ DTEND;TZID=America/Chicago:20260914T113000
 SUMMARY:CFAN 3091V Wk02: Technical writing fundamentals and the topic funne
  l
 LOCATION:Borlaug Hall 213
-DESCRIPTION:Week 2. Technical writing fundamentals and the topic funnel. Due
- : Writing Exercise 1 and topic funnel.
+DESCRIPTION:Week 2. Technical writing fundamentals and the topic funnel. Han
+ d in the Writing Workshop worksheet and the Week 1 freewrite separately.
 END:VEVENT
 BEGIN:VEVENT
 UID:CFAN-3091V-20260916-03@umn.edu
@@ -34,7 +34,9 @@ DTSTART;TZID=America/Chicago:20260916T101500
 DTEND;TZID=America/Chicago:20260916T113000
 SUMMARY:CFAN 3091V Wk02: Honors thesis requirements and mentor outreach
 LOCATION:Borlaug Hall 213
-DESCRIPTION:Week 2. Honors thesis requirements and mentor outreach.
+DESCRIPTION:Week 2. Honors thesis requirements and mentor outreach. Hand in
+ the Requirements and Outreach worksheet. Milestone 2 is complete after both
+ Week 2 worksheets are reviewed.
 END:VEVENT
 BEGIN:VEVENT
 UID:CFAN-3091V-20260921-04@umn.edu
