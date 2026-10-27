@@ -446,40 +446,54 @@ Hand in the printed form for your track at the end of Wednesday’s class. The B
 <section id="probability-and-what-a-p-value-actually-is" class="level3">
 <h3 class="anchored" data-anchor-id="probability-and-what-a-p-value-actually-is">Probability, and What a P-Value Actually Is</h3>
 <p>You do not need to compute a p-value to read one, but you do need to know what it is a probability <em>of</em>, because that is where nearly every misreading starts.</p>
-<p>Start with the picture, because the arithmetic follows from it.</p>
-<div id="fig-two-distributions" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Two bell curves on one horizontal axis running from smaller results on the left to larger on the right. The left curve, drawn as a solid blue line, is the range of results expected if there is no effect. The right curve, drawn as a dashed orange line, is the range expected if there is a real effect. The two curves overlap heavily through the middle. A vertical black line marks a single observed result inside that overlap, where it is a plausible outcome under either curve. The region of the no-effect curve at or beyond the observed result is shaded blue and cross-hatched; that area is the p-value.">
+<p>Suppose a field trial finds that a treatment increased mean yield by <strong>0.40 Mg/ha</strong> compared with a control. If there were really no mean yield difference, how often would a study like this produce an estimate at least that large?</p>
+<p>This is a <strong>hypothetical teaching example</strong>, not a result from Davis or another paper. Assume a normal sampling model with a known standard error of <strong>0.20 Mg/ha</strong>, based on independent observations. Standard error describes how much the estimated difference would vary across repeated studies with the same design; it is not the spread of individual plot yields. Suppose we chose a <strong>one-sided test for an increase before seeing the data</strong>.</p>
+<div id="fig-two-distributions" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Two sampling distributions of estimated yield differences: a solid no-effect curve centered at zero and a dashed alternative centered at positive 0.40 Mg/ha, both with standard error 0.20 Mg/ha. A vertical line marks the observed positive 0.40; the hatched area under the solid curve to its right is the one-sided p-value, approximately 0.023. The curves overlap, so the observation is possible under either model.">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-two-distributions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../resources/p-value-two-distributions.svg" class="img-fluid figure-img" alt="Two bell curves on one horizontal axis running from smaller results on the left to larger on the right. The left curve, drawn as a solid blue line, is the range of results expected if there is no effect. The right curve, drawn as a dashed orange line, is the range expected if there is a real effect. The two curves overlap heavily through the middle. A vertical black line marks a single observed result inside that overlap, where it is a plausible outcome under either curve. The region of the no-effect curve at or beyond the observed result is shaded blue and cross-hatched; that area is the p-value.">
+<img src="../resources/p-value-two-distributions.svg" class="img-fluid figure-img" alt="Two sampling distributions of estimated yield differences: a solid no-effect curve centered at zero and a dashed alternative centered at positive 0.40 Mg/ha, both with standard error 0.20 Mg/ha. A vertical line marks the observed positive 0.40; the hatched area under the solid curve to its right is the one-sided p-value, approximately 0.023. The curves overlap, so the observation is possible under either model.">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-two-distributions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Two expectations, one result. The shaded area is the p-value: how much of the no-effect curve sits at or beyond what you observed.
+Figure&nbsp;1: A one-sided p-value in a hypothetical yield trial. The hatched right tail under the solid no-effect curve is about 2.3% of that curve’s total area. The dashed curve shows one specified alternative, a true increase of 0.40 Mg/ha; it is not used to calculate this p-value.
 </figcaption>
 </figure>
 </div>
-<p>Both curves are expectations, not data. Each one says: <em>if this were the true state of the world, here is the spread of results you would expect to see.</em> The left curve assumes no effect. The right curve assumes a real one.</p>
-<p>Now look at where the curves overlap, because that region is the entire problem. The observed result sits inside it. It is an unremarkable outcome under the right-hand curve and an unusual one under the left, but it is a possible outcome under both. No amount of arithmetic changes that.</p>
-<p>The p-value measures one thing on this picture: the shaded area, meaning how much of the no-effect curve sits at or beyond your result. A small p-value says your data would be surprising if there were no effect. It does not say how much of the right-hand curve sits there, and it never tells you which curve you are actually standing in.</p>
+<p>Read <a href="#fig-two-distributions" class="quarto-xref">Figure&nbsp;1</a> in this order:</p>
+<ol type="1">
+<li><strong>Start with the solid curve.</strong> It assumes a true mean difference of zero, the <em>null hypothesis</em>. Imagine repeating the whole study under that assumption. Each study contributes one estimated treatment-minus-control difference to this distribution. The entire area under this curve is 100%.</li>
+<li><strong>Find the vertical line at +0.40.</strong> That is our observed difference, two standard errors above zero: 0.40 / 0.20 = 2. It is one study’s result.</li>
+<li><strong>Follow the hatching to the right.</strong> Count estimates of +0.40 <strong>or larger</strong>, not just exactly +0.40. Under this normal model, that tail contains about 2.3% of the area. Our one-sided <strong>p-value is approximately 0.023</strong>.</li>
+</ol>
+<p>Put it into a sentence: <strong>If the true mean difference were zero and the other model assumptions held, about 23 out of every 1,000 repetitions of this study would produce an estimated increase of 0.40 Mg/ha or more.</strong> This is an expected frequency under the model, not a report of 1,000 trials we ran.</p>
+<p>Now look at the dashed curve. It assumes one particular alternative: a true increase of 0.40 Mg/ha, with the same standard error. Our result is possible under either curve. The p-value uses only the solid curve; neither the overlap between the curves nor the height of either curve is the p-value.</p>
+<p><strong>What does 0.023 not tell us?</strong> It does not mean there is a 2.3% probability that the null hypothesis is true, a 97.7% probability that the treatment works, or a 2.3% probability that the result was caused by chance. It also does not tell us whether 0.40 Mg/ha is worth the treatment’s cost <span class="citation" data-cites="wasserstein2016">(<a href="#ref-wasserstein2016" role="doc-biblioref">Wasserstein and Lazar 2016</a>)</span>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Why Only One Tail?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We specified an increase before looking at the results. If our question were whether the treatment <strong>changes yield in either direction</strong>, this symmetric normal model would count estimates at or below -0.40 as well as those at or above +0.40. The two-sided p-value would be about <strong>0.046</strong>, the sum of both tails. That left tail is not shaded in <a href="#fig-two-distributions" class="quarto-xref">Figure&nbsp;1</a>. Do not choose a one-sided test after seeing which direction your estimate took.</p>
+</div>
+</div>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Breakout: What “Probability” Means Here, With One Die
+<span class="screen-reader-only">Tip</span>Check Your Reading of Figure 1
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Before p-values, settle what a probability is a statement <em>about</em>.</p>
-<p>A probability is a statement about a <strong>setup</strong>, not about a result you already have. Take a fair six-sided die. The probability of rolling a 4 is one in six, or about 0.17. That number describes the die and the throw. It does not describe any particular roll, and the moment the die lands the probability is gone: it either is a 4 or it is not.</p>
-<p>So probability runs one direction, from the setup to the outcome. Given this die, how often would I see this result?</p>
-<p>Now roll three sixes in a row. If the die is fair, the chance of that is one in 216, about 0.005. That is a small number, and it is a p-value in miniature: <em>if the fair-die assumption held, this run would be surprising.</em></p>
-<p>Here is the step almost everyone takes and should not. That 0.005 is <strong>not</strong> the probability that the die is loaded. It cannot be, because we never asked how often loaded dice turn up in the first place. If every die in the room is fair, three sixes is just a rare evening. If half the dice are loaded, the same run means something else entirely. The rolls alone cannot tell you which room you are in.</p>
-<p>That is the whole misreading, in a form you can hold in your hand. The p-value answers “how surprising are these data if the assumption held?” People hear it answer “how likely is the assumption?” Those are different questions, and the second one needs information the data do not contain.</p>
+<p>Keep the solid curve fixed, but move the observed result from +0.40 to +0.20. Would the hatched area get larger or smaller? Write one sentence explaining what changed. Then complete this sentence in words: “The p-value is a probability of ______, assuming ______.”</p>
 </div>
 </div>
-<p>A statistical model is a set of assumptions about how the data could have come about. A p-value is computed under such a model, including the assumption that there is no effect, otherwise known as the <em>null hypothesis</em>. It reports how unusual data like yours would be if those assumptions held. In the words of the American Statistical Association’s formal statement on the subject, “P-values can indicate how incompatible the data are with a specified statistical model” <span class="citation" data-cites="wasserstein2016">(<a href="#ref-wasserstein2016" role="doc-biblioref">Wasserstein and Lazar 2016</a>)</span>.</p>
-<p>Now the direction, which is the whole game. The p-value runs from the model to the data: given these assumptions, how surprising are these data? It does not run from the data back to the truth of the hypothesis. The ASA states this directly: p-values “do not measure the probability that the studied hypothesis is true, or the probability that the data were produced by random chance alone” <span class="citation" data-cites="wasserstein2016">(<a href="#ref-wasserstein2016" role="doc-biblioref">Wasserstein and Lazar 2016</a>)</span>.</p>
+<p>A p-value is the probability, under a specified statistical model including the null hypothesis, of a test statistic at least as extreme as the observed one. Here our statistic is the estimated difference divided by its standard error, and “as extreme” means as far to the right for our prespecified test. The direction of reasoning matters: we assume the model and ask about the results it could produce. We have not calculated the probability that the model itself is true <span class="citation" data-cites="wasserstein2016">(<a href="#ref-wasserstein2016" role="doc-biblioref">Wasserstein and Lazar 2016</a>)</span>.</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -503,7 +517,7 @@ Figure&nbsp;1: Two expectations, one result. The shaded area is the p-value: how
 <p>The conclusion is the sentence to carry into your own proposal: “No single index should substitute for scientific reasoning.”</p>
 </div>
 </div>
-<p>Notice what principle five gives you. Significance and magnitude are different questions, and a paper can answer the first while leaving the second unaddressed. A yield difference of 0.2 Mg/ha can be highly significant with enough replication and still be too small for a grower to notice. Significance answers “is it distinguishable from noise?” Magnitude answers “does it matter?” You need both, and only one of them is usually printed in bold.</p>
+<p>Notice what principle five gives you. Significance and magnitude are different questions, and a paper can answer the first while leaving the second unaddressed. A yield difference of 0.2 Mg/ha can be highly significant with enough replication and still be too small for a grower to notice. The p-value asks how unusual the result would be under the null model. The effect estimate says how large the difference is; its practical importance depends on costs, benefits, and the research context. Read the estimate and its uncertainty alongside the p-value.</p>
 </section>
 <section id="selective-analysis-and-the-published-record" class="level3">
 <h3 class="anchored" data-anchor-id="selective-analysis-and-the-published-record">Selective Analysis and the Published Record</h3>
@@ -528,13 +542,13 @@ Figure&nbsp;1: Two expectations, one result. The shaded area is the p-value: how
 </section>
 <section id="guided-practice" class="level3">
 <h3 class="anchored" data-anchor-id="guided-practice">Guided Practice</h3>
-<p>The rest of Monday stays on the Week 1 article. You already know this paper, which means you can spend the hour on the inspection instead of on orientation.</p>
+<p>The rest of Monday stays on the Week 1 article. You already know this paper, which lets us spend the practice time on inspection instead of orientation.</p>
 <p>I bring three claims about the Davis results and put them on the board. They are my sentences, not the authors’, and they do not all hold up. Your job is to run the seven questions on each one and decide what the printed results actually entitle that sentence to say. We work the first as a class, you work the second in pairs, and we compare answers on the third.</p>
 <p>Expect to disagree about question seven. Whether an effect is large enough to matter is not a statistical question, and two people reading the same table can reasonably land in different places. That is the point of doing it out loud.</p>
 </section>
 <section id="mixed-methods-designing-for-what-neither-approach-settles" class="level3">
 <h3 class="anchored" data-anchor-id="mixed-methods-designing-for-what-neither-approach-settles">Mixed Methods: Designing for What Neither Approach Settles</h3>
-<p>Recall from Week 5 that quantitative and qualitative work license different conclusions, and that each has a row in the table listing what it cannot establish alone. Now you have seen a concrete instance. A significant difference in tile nitrate tells you the magnitude of a change. It tells you nothing about why some growers adopted the practice and others did not, and a proposal that needs both is not served by choosing harder.</p>
+<p>Recall from Week 5 that quantitative and qualitative work license different conclusions, and that each has a row in the table listing what it cannot establish alone. Now you have seen a concrete instance. An estimated difference in tile nitrate, reported with units and uncertainty, describes the magnitude of a change. Statistical significance alone does not. Neither tells you why some growers adopted the practice and others did not, and a proposal that needs both is not served by choosing harder.</p>
 <p>That is what a mixed-methods design is for. It is not “both, because more is better,” and two studies stapled together in one document is not a mixed-methods design. The defining feature is a connecting logic: a stated reason the two strands are in the same study, and a named point where they meet.</p>
 <p>Three common connecting logics, as we will use the term in this course:</p>
 <ul>
@@ -565,7 +579,7 @@ Figure&nbsp;1: Two expectations, one result. The shaded area is the p-value: how
 <p>Three questions do most of the work, and all three are answerable without software:</p>
 <ol type="1">
 <li>How many? Find the number, and find where it shrank. Studies report how many were enrolled, approached, or planted, then analyze a smaller number. The gap is where problems hide. Ask whether that final number supports a claim about a population, or only about the units actually measured. This question does not change between designs. A theme reported by three of 22 interviewees and written up as “participants described” has the same problem as a yield mean with four surviving plots.</li>
-<li>How much? Find the size of the effect and its units, separately from any p-value. Significance answers “is it real?” Effect size answers “does it matter?” You need both. Where the work is not reporting effects, ask the parallel question: how much of the evidence is this claim resting on?</li>
+<li>How much? Find the size of the effect and its units, separately from any p-value. A p-value does not establish that an effect is real. The effect estimate describes its magnitude; uncertainty and context help you judge what it could mean in practice. Where the work is not reporting effects, ask the parallel question: how much of the evidence is this claim resting on?</li>
 <li>What is the display not showing? A bar chart of means hides the spread. A table of percentages hides its denominator. A table of means hides the variation just as completely as the bar chart does. Look for whether you can see the variation, the individual observations, or the uncertainty. If you cannot, ask why not.</li>
 </ol>
 <p>Then one check carried over from Monday: what does this paper let you find out about how its analysis was chosen? Look for whether the analysis plan was specified in advance, whether the primary outcome named in the methods is the one featured in the abstract, and how many outcomes or comparisons were examined against how many were reported. Often you will not be able to tell. Write that down. “Cannot determine” is the finding, and it is the reason principle four asks for full reporting.</p>
