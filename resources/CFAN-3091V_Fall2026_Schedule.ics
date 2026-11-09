@@ -160,31 +160,37 @@ DESCRIPTION:Week 9. Structured peer review. Due: Peer Review 1.
 END:VEVENT
 BEGIN:VEVENT
 UID:CFAN-3091V-20261109-18@umn.edu
-DTSTAMP:20260803T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Chicago:20261109T101500
 DTEND;TZID=America/Chicago:20261109T113000
-SUMMARY:CFAN 3091V Wk10: Drafting introductions
+SUMMARY:CFAN 3091V Wk10: Proposal structure and pitch practice
 LOCATION:Borlaug Hall 213
-DESCRIPTION:Week 10. Drafting introductions.
+DESCRIPTION:Week 10. Early Advisor Design Check worksheet assigned. Send ad
+ visor materials by end of day Nov 9\, replacing Nov 4 without a late penal
+ ty. Submit the worksheet with the Nov 11 draft.
 END:VEVENT
 BEGIN:VEVENT
 UID:CFAN-3091V-20261111-19@umn.edu
-DTSTAMP:20260803T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Chicago:20261111T101500
 DTEND;TZID=America/Chicago:20261111T113000
-SUMMARY:CFAN 3091V Wk10: Drafting methods
+SUMMARY:CFAN 3091V Wk10: Proposal writing workshop
 LOCATION:Borlaug Hall 213
-DESCRIPTION:Week 10. Drafting methods. Due: Introduction and Methods Draft.
+DESCRIPTION:Week 10. Due after the workshop: Introduction\, Literature Revi
+ ew\, and Methods Draft\; advisor-check worksheet and dated request or exch
+ ange\; UHP Form Readiness Check when applicable. If no advisor reply has a
+ rrived\, include the request and follow-up plan.
 END:VEVENT
 BEGIN:VEVENT
 UID:CFAN-3091V-20261116-20@umn.edu
-DTSTAMP:20260803T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Chicago:20261116T101500
 DTEND;TZID=America/Chicago:20261116T113000
-SUMMARY:CFAN 3091V Wk11: Expected results
+SUMMARY:CFAN 3091V Wk11: Design check-in and expected results
 LOCATION:Borlaug Hall 213
-DESCRIPTION:Week 11. Expected results for proposal students; actual results
-  and discussion for Fall Graduation students.
+DESCRIPTION:Week 11. Bring the advisor-check record\, any feedback\, and un
+ resolved design questions. Check decisions before drafting expected outcom
+ es. Fall Graduation students work on actual Results and Discussion.
 END:VEVENT
 BEGIN:VEVENT
 UID:CFAN-3091V-20261118-21@umn.edu
