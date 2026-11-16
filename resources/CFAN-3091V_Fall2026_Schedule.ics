@@ -183,24 +183,28 @@ DESCRIPTION:Week 10. Due after the workshop: Introduction\, Literature Revi
 END:VEVENT
 BEGIN:VEVENT
 UID:CFAN-3091V-20261116-20@umn.edu
-DTSTAMP:20261109T000000Z
+DTSTAMP:20261116T000000Z
 DTSTART;TZID=America/Chicago:20261116T101500
 DTEND;TZID=America/Chicago:20261116T113000
 SUMMARY:CFAN 3091V Wk11: Design check-in and expected results
 LOCATION:Borlaug Hall 213
-DESCRIPTION:Week 11. Bring the advisor-check record\, any feedback\, and un
- resolved design questions. Check decisions before drafting expected outcom
- es. Fall Graduation students work on actual Results and Discussion.
+DESCRIPTION:Expected-results and discussion workshop with in-class peer rev
+ iew. Meet independently with a new reviewer on or before Nov 18 and revise
+  before the draft deadline.
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:CFAN-3091V-20261118-21@umn.edu
-DTSTAMP:20260803T000000Z
+DTSTAMP:20261116T000000Z
 DTSTART;TZID=America/Chicago:20261118T101500
 DTEND;TZID=America/Chicago:20261118T113000
-SUMMARY:CFAN 3091V Wk11: Student Peer Review 2
-LOCATION:Borlaug Hall 213
-DESCRIPTION:Week 11. Student Peer Review 2. Due: Student Peer Review 2 and
-  Professional Review Plan.
+SUMMARY:CFAN 3091V Wk11: Independent review and writing
+LOCATION:Independent work - no classroom meeting
+DESCRIPTION:Meet with a new peer reviewer on or before Nov 18. Revise indep
+ endently. Upload the revised draft only to Canvas by 11:59 p.m. Central Ti
+ me. Keep the worksheet and Professional Review Plan. Instructor comments r
+ eturned by Nov 23\, ideally before class.
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:CFAN-3091V-20261123-22@umn.edu
@@ -213,13 +217,16 @@ DESCRIPTION:Week 12. Figures\, tables\, and abstracts.
 END:VEVENT
 BEGIN:VEVENT
 UID:CFAN-3091V-20261125-23@umn.edu
-DTSTAMP:20260803T000000Z
+DTSTAMP:20261116T000000Z
 DTSTART;TZID=America/Chicago:20261125T101500
 DTEND;TZID=America/Chicago:20261125T113000
-SUMMARY:CFAN 3091V Wk12: Full-document assembly workshop
-LOCATION:Borlaug Hall 213
-DESCRIPTION:Week 12. Full proposal or thesis assembly workshop. Due: Advisor
- -ready Full Thesis Proposal or Full Thesis Draft. Hold for Week 13.
+SUMMARY:CFAN 3091V Wk12: Independent revision and advisor send
+LOCATION:Independent work - no classroom meeting
+DESCRIPTION:Revise using instructor comments and the Nov 23 workshop. Email
+  the updated document to your advisor/committee by 4:59 p.m. Central Time
+  and BCC sswells@umn.edu. No Canvas confirmation upload. Request feedback
+  as soon as possible for Dec 9.
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:CFAN-3091V-20261130-24@umn.edu
